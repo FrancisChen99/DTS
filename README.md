@@ -6,7 +6,7 @@ The main purpose makes FireFighters get the lastest information to understand th
  
 # Skill
 <pre><code>
-  Languages:  Java, JavaScript, SQL
+  Languages:  Java, JavaScript, SQL, HTML, JSP
   Framework:  Spring Boot 2.0
   API:        JPA, REST
   Web Server: Apache Tomcat 7/8/9
