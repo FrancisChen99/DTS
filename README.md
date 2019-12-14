@@ -12,7 +12,7 @@ The main purpose makes FireFighters get the lastest information to understand th
   Web Server: Apache Tomcat 7/8/9
   Database:   Oracle 10g
   Tool:       Eclipse, SQL Developer, Postman, Subversion
-  Others:     Mavin, CRUD
+  Others:     Mavin
   OS:         Windows 10, Linux (Remote Server)
 </code></pre>
 
@@ -25,32 +25,31 @@ DTS
        |   |-[dts]
        |     |-[mesg]
        |     |  |-[maintan]
-       |     |     |-[controller]   --> Controller , method  GET/POST/PUT/DELETE
+       |     |     |-[controller]   --> Controller 為頁面控制層, method 有 GET/POST/PUT/DELETE
        |     |     |  |-MaintainCaseController.java
        |     |     |  |- ...
-       |     |     |-[service]      --> Service ,  Repostiory 
+       |     |     |-[service]      --> Service 為業務邏輯運算層, 數據是 Repostiory 程式提供
        |     |        |-MaintainCaseService.java
        |     |        |- ...
-       |     |-[model]              --> Model  Data Structure
+       |     |-[model]              --> Model 為資料實體設定層 Data Structure
        |     |  |-[entity]          
        |     |     |-Dept.java       
        |     |     |-MaintainCase.java
        |     |     |- ...   
-       |     |-[repository]        --> Repository  exten CrudRepository
+       |     |-[repository]        --> Repository 為數據擷取層 exten CrudRepository
        |        |-DeptRepository.java
        |        |-MaintainCaseRepository.java
        |        |- ...
-       |-[resources]               --> 
-          |-[static]               --> CSS,JS, image
-          |-[templates]            --> 
-          |-application.properties --> , : server PORT/Database URLs
+       |-[resources]               --> 放置所有配置檔
+          |-[static]               --> 放置CSS,JS, image檔案
+          |-[templates]            --> 放置網頁檔案
+          |-application.properties --> 設定檔, 如: server PORT/Database URLs
        |-[webapp]
-          |-[_mdsWebPage]          --> 
+          |-[_mdsWebPage]          --> 客制配置資料夾
              |-css
              |-js
              |-img
           |-[WEB-INF]
              |-[jsp]
-                |-MaintainCase.jsp --> 
-       |-POM.XML                   --> Mavin : Spring Boot configuration, dependency, etc.
-<code></pre>
+                |-MaintainCase.jsp --> 前端網頁
+</code></pre>
