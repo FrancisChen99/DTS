@@ -1,0 +1,36 @@
+﻿<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>NFA_Fire_20180721120128003</identifier>
+  <sender>NFA</sender>
+  <sent>2019-01-10T02:33:49+08:00</sent>
+  <status>Test</status>
+  <msgType>Alert</msgType>
+  <source>NFA</source>
+  <scope>Public</scope>
+  <info>
+    <language>zh-TW</language>
+    <category>Fire</category>
+    <event>火災</event>
+    <urgency>Immediate</urgency>
+    <severity>Extreme</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>profile:CAP- NFA:Event:1.0</valueName>
+      <value>Fire</value>
+    </eventCode>
+    <effective>2019-01-10T02:33:49+08:00</effective>
+    <expires>2019-01-11T02:33:49+08:00</expires>
+    <senderName>內政部消防署</senderName>
+    <headline>彰化縣員林市員南路420巷66弄25號緊急救護訊息b</headline>
+    <description>彰化縣員林市員南路420巷66弄25號發生緊急救護-創傷a</description>
+    <instruction>事故現場請勿圍觀，另避免影響救災勤務，請民衆及用路人能預先規劃行程避開行經警示區域。</instruction>
+    <web>http://www.nfa.gov.tw</web>
+    <parameter>
+      <valueName>alert_type</valueName>
+      <value>緊急救護-創傷</value>
+    </parameter>
+    <area>
+      <areaDesc>彰化縣員林市員南路420巷66弄25號</areaDesc>
+      <circle>0,0 0.5</circle>
+    </area>
+  </info>
+</alert>

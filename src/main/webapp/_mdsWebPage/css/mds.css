@@ -1,0 +1,508 @@
+.txtblk
+{
+    FONT-FAMILY: 新細明體;
+    FONT-SIZE: 10pt;
+    COLOR: #232323;
+    line-height: 10px
+}
+Body
+{
+    font-size: 13px;
+    FONT-FAMILY: 新細明體,Times New Roman;
+    COLOR: black;
+    SCROLLBAR-ARROW-COLOR: #000000;
+    BACKGROUND-COLOR: #e8f5ff;
+	padding: 10px;
+}
+Input,Textarea,Select
+{
+    FONT-FAMILY: 新細明體,Times New Roman;
+    FONT-SIZE: 10pt;
+}
+.menuBar 
+{ 
+    POSITION: relative;   
+    left: 0px; 
+    BACKGROUND-COLOR: transparent; 
+    TEXT-ALIGN: center 
+} 
+.Bar 
+{ 
+    BORDER-RIGHT: blue 0px outset; 
+    BORDER-TOP: blue 0px outset; 
+    FLOAT: left; 
+    BORDER-LEFT: blue 0px outset; 
+    CURSOR: hand; 
+    BORDER-BOTTOM: blue 0px outset; 
+    POSITION: relative; 
+    BACKGROUND-COLOR: #C7E36B; 
+    TEXT-ALIGN: center 
+} 
+.barOver 
+{ 
+    BORDER-RIGHT: blue 0px ridge; 
+    BORDER-TOP: blue 0px ridge; 
+    FLOAT: left; 
+    BORDER-LEFT: blue 0px ridge; 
+    CURSOR: hand; 
+    BORDER-BOTTOM: blue 0px ridge; 
+    POSITION: relative; 
+    BACKGROUND-COLOR: #C7E36B; 
+    TEXT-ALIGN: center 
+} 
+.menu 
+{ 
+    BORDER-RIGHT: buttonhighlight thin outset; 
+    BORDER-TOP: buttonhighlight thin outset; 
+    VISIBILITY: hidden; 
+    BORDER-LEFT: buttonhighlight thin outset; 
+    WIDTH: 150px; 
+    LINE-HEIGHT: 100%; 
+    BORDER-BOTTOM: buttonhighlight thin outset; 
+    POSITION: absolute; 
+    BACKGROUND-COLOR: #C7E36B 
+} 
+.menuItem 
+{ 
+    color: #000066; 
+    font-size: 10pt; 
+    TEXT-ALIGN: LEFT;
+    PADDING-LEFT: 2px; 
+    WIDTH: 230; 
+    CURSOR: hand; 
+    LINE-HEIGHT: 20px; 
+    POSITION: relative;
+    BORDER-BOTTOM: white 1px solid 
+} 
+.ItemMouseOver 
+{ 
+    color: #FFFF00; 
+    font-size: 10pt; 
+    font-weight: bold;
+    TEXT-ALIGN: LEFT;
+    PADDING-LEFT: 2px; 
+    WIDTH: 230; 
+    CURSOR: hand; 
+    COLOR: highlighttext; 
+    LINE-HEIGHT: 20px; 
+    BORDER-BOTTOM: white 1px solid; 
+    BACKGROUND-COLOR: highlight
+} 
+.ItemMouseOut 
+{ 
+    WIDTH: 100% 
+} 
+.Arrow 
+{ 
+    FLOAT: right; 
+    FONT-FAMILY: Webdings; 
+    POSITION: absolute; 
+    TEXT-ALIGN: left 
+} 
+
+.title
+{
+	text-align:center;
+	Font-family:"標楷體";
+	color: #003300;
+	font-size: 26px;
+	font-weight: bold;
+}
+.message
+{
+	color:#FF0000;
+	font-size:16px;
+}
+.shortcut
+{
+	text-align:right;
+}
+
+.inputBox
+{
+	
+}
+.inputBox_Num
+{
+	text-align: right
+}
+.button
+{
+	
+}
+.dropDownList
+{
+	
+}
+.checkBox
+{
+	
+}
+.radioBox
+{
+	
+}
+.text
+{
+	font-size:13px;
+	font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    color: #000000;
+    text-decoration: none;
+    background-color: #E2D9CA;
+    padding-left: 5px
+}
+
+.stressText
+{
+	font-weight: bold;
+	font:Arial;
+	font-size:13px;
+	color: #000000;
+}
+.necessarySign
+{
+	color: #ff0000;
+}
+.specialText
+{
+	font:Arial;
+	font-size:13px;
+	color: #6F82B5;
+}
+
+A:link 
+{ 
+	
+}
+A:visited 
+{ 
+	
+}
+A:hover 
+{ 
+	
+}
+
+.readOnly
+{
+	COLOR:#FFFFCC; 
+}
+.verifyError
+{
+	BACKGROUND-COLOR:red; 
+}
+.table
+{
+	border:2;
+	border-spacing:1;
+	padding:1;
+}
+
+.table_Header
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #E2D9CA;
+	padding-left: 5px;
+	height: 20px;
+	text-align: center
+}
+.table_Heade_FieldName
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #E2D9CA;
+	padding-left: 5px
+}
+.mdsTRStyle1
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	background-color: #F3F3F3;
+	padding-left: 5px
+}
+.mdsTRStyle2
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000; 
+	text-decoration: none;
+	background-color: #FFFFCD;
+	padding-left: 5px
+}
+.table_Cell
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFCD;
+	padding-left: 5px
+}
+.table_Row_GroupCell
+{
+	font-size: 16px; 
+	color: #FFFFFF;
+	background-color: #966360;
+	height: 20px;
+	text-align: center
+}
+.table_Row_StressCell
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #E2D9CA;
+	padding-left: 5px;
+	text-align: right
+}
+.table_Row_OperationCell
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #E2D9CA;
+	padding-left: 5px;
+	text-align: right
+}
+.table_Row_ReadOnlyCell
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000; 
+	text-decoration: none;
+	background-color: #FFFFCD;
+	padding-left: 5px
+}
+.table_Row_NecessaryCell
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #E2D9CA;
+	padding-left: 5px;
+	text-align: right
+}
+.table_Footer
+{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	BACKGROUND-COLOR: #e8f5ff;
+	padding-left: 5px;
+	text-align: right
+}
+.table_Footer_Count
+{	
+	font-size:13px;
+}
+.table_Footer_FirstPage
+{
+	CURSOR: hand; 
+	text-decoration: underline;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	BACKGROUND-COLOR: #e8f5ff;
+	padding-left: 5px
+	border-style: solid;
+	border-width: 0
+
+}
+.table_Footer_PageUp
+{
+	CURSOR: hand; 
+	text-decoration: underline;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	BACKGROUND-COLOR: #e8f5ff;
+	padding-left: 5px
+	border-style: solid;
+	border-width: 0
+}
+.table_Footer_PageSelect
+{
+	CURSOR: hand; 
+	text-decoration: underline;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	BACKGROUND-COLOR: #e8f5ff;
+	padding-left: 5px
+	border-style: solid;
+	border-width: 0
+}
+.table_Footer_PageDown
+{
+	CURSOR: hand; 
+	text-decoration: underline;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	BACKGROUND-COLOR: #e8f5ff;
+	padding-left: 5px
+	border-style: solid;
+	border-width: 0
+}
+.table_Footer_LastPage
+{
+	CURSOR: hand; 
+	text-decoration: underline;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	BACKGROUND-COLOR: #e8f5ff;
+	padding-left: 5px
+	border-style: solid;
+	border-width: 0
+}
+.table_Footer_TotalPage
+{
+	font-size:13px;
+}
+
+.table_LoopCell_Num
+{
+	font-size: 13px;
+	text-align: right;
+	word-wrap: break-word;
+	word-break : break-all ;
+}
+.table_LoopCell_Text
+{
+	font-size: 13px;
+	text-align: center;
+	word-wrap: break-word;
+	word-break : break-all ;
+}
+.table_LoopCell_LongText
+{
+	font-size: 13px;
+	text-align: left;
+	text-valign: top;
+	word-wrap: break-word;
+	word-break : break-all ;
+}
+.table_LoopCell_Button
+{
+	text-align: center;
+}
+.mdsTxTLabelCSS{
+	font-size:13px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	background-color: transparent;
+	padding-left: 2px;
+	border-color:transparent;
+	border-style:solid;
+}
+
+.tablelist{
+	border: 1px solid #939fad;
+	border-collapse: collapse;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 1px;
+}
+.tablelist td{
+	border-top: 1px solid #939fad; 
+	border-right: 1px solid #939fad;
+	border-left: 1px solid #939fad;
+	padding: 4px;
+}
+.tablelist th{
+	border-top: 1px solid #939fad; 
+	border-right: 1px solid #939fad;
+	border-left: 1px solid #939fad;
+	font-weight: bold;
+	background-color: #a8cdf7;	
+	padding: 4px;
+}
+.tablelist_noborder{
+	border: 0px;
+	padding:0px;
+	border-collapse: separate;
+}
+.tablelist_noborder td{
+	border: 0px;
+	padding:0px;
+}
+.tablelist_noborder th{
+	border: 0px;
+	padding:3px;
+	background-color: #a8cdf7;	
+}
+.table_tr1{
+	background-color: #FFFFFF;	
+}
+.table_tr2{
+	background-color: #e4edf2;	
+}
+
+.tablelist span{
+	display:inlin-block;
+}
+.QueryMessane{
+	font-size:15px; 
+	text-align: left;
+}
+.urlClass{
+	cursor:hand;
+	color: blue
+}
+.button_hospital {
+       background : url(../img/bu01_1.gif) no-repeat;
+       cursor:pointer;
+       border:none;
+       width:128px;
+       height:49px;
+}
+.button_hospital:active {
+       background : url(../img/bu03.gif) no-repeat;
+       
+}

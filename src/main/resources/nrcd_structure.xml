@@ -1,0 +1,36 @@
+﻿<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>NFA_Fire_{identifier}</identifier>
+  <sender>NFA</sender>
+  <sent>{sent}</sent>
+  <status>{status}</status>
+  <msgType>Alert</msgType>
+  <source>NFA</source>
+  <scope>Public</scope>
+  <info>
+    <language>zh-TW</language>
+    <category>Fire</category>
+    <event>火災</event>
+    <urgency>Immediate</urgency>
+    <severity>Extreme</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>profile:CAP- NFA:Event:1.0</valueName>
+      <value>Fire</value>
+    </eventCode>
+    <effective>{effective}</effective>
+    <expires>{expires}</expires>
+    <senderName>內政部消防署</senderName>
+    <headline>{headline}</headline>
+    <description>{description}</description>
+    <instruction>事故現場請勿圍觀，另避免影響救災勤務，請民衆及用路人能預先規劃行程避開行經警示區域。</instruction>
+    <web>http://www.nfa.gov.tw</web>
+    <parameter>
+      <valueName>alert_type</valueName>
+      <value>{value}</value>
+    </parameter>
+    <area>
+      <areaDesc>{areaDesc}</areaDesc>
+      <circle>{circle} 0.5</circle>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,838 @@
+2019-01-10 10:30:40  INFO nb31301675--[           main] d.Application                           :Starting Application on nb31301675 with PID 10020 (C:\MDS\workspace_NFADTS\DTS\target\classes started by mds_userz in C:\MDS\workspace_NFADTS\DTS)
+2019-01-10 10:30:40  INFO nb31301675--[           main] d.Application                           :No active profile set, falling back to default profiles: default
+2019-01-10 10:30:40  INFO nb31301675--[           main] ConfigServletWebServerApplicationContext:Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4722ef0c: startup date [Thu Jan 10 10:30:40 CST 2019]; root of context hierarchy
+2019-01-10 10:30:42  INFO nb31301675--[           main] trationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$240da921] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 10:30:43  INFO nb31301675--[           main] o.s.b.w.e.t.TomcatWebServer             :Tomcat initialized with port(s): 8080 (http)
+2019-01-10 10:30:43  INFO nb31301675--[           main] o.a.c.h.Http11NioProtocol               :Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-10 10:30:43  INFO nb31301675--[           main] o.a.c.c.StandardService                 :Starting service [Tomcat]
+2019-01-10 10:30:43  INFO nb31301675--[           main] o.a.c.c.StandardEngine                  :Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-01-10 10:30:43  INFO nb31301675--[ost-startStop-1] o.a.c.c.AprLifecycleListener            :The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_91/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_91/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_91/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\CollabNet\Subversion Client;C:\Program Files\Java\jdk1.8.0_91\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Acer ProShield\;C:\Program Files\Acer ProShield\x86;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\sts;;.]
+2019-01-10 10:30:44  INFO nb31301675--[ost-startStop-1] o.a.j.s.TldScanner                      :At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-10 10:30:44  INFO nb31301675--[ost-startStop-1] o.a.c.c.C.[.[.[/DTS]                    :Initializing Spring embedded WebApplicationContext
+2019-01-10 10:30:44  INFO nb31301675--[ost-startStop-1] o.s.w.c.ContextLoader                   :Root WebApplicationContext: initialization completed in 3764 ms
+2019-01-10 10:30:44  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.ServletRegistrationBean       :Servlet dispatcherServlet mapped to [/]
+2019-01-10 10:30:44  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.FilterRegistrationBean        :Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 10:30:44  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.FilterRegistrationBean        :Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 10:30:44  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.FilterRegistrationBean        :Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 10:30:44  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.FilterRegistrationBean        :Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 10:30:44  INFO nb31301675--[           main] c.z.h.HikariDataSource                  :HikariPool-1 - Starting...
+2019-01-10 10:30:44  WARN nb31301675--[           main] c.z.h.u.DriverDataSource                :Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-10 10:30:45  INFO nb31301675--[           main] c.z.h.p.PoolBase                        :HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-10 10:30:45  INFO nb31301675--[           main] c.z.h.HikariDataSource                  :HikariPool-1 - Start completed.
+2019-01-10 10:30:45  INFO nb31301675--[           main] j.LocalContainerEntityManagerFactoryBean:Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 10:30:45  INFO nb31301675--[           main] o.h.j.i.u.LogHelper                     :HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 10:30:45  INFO nb31301675--[           main] o.h.Version                             :HHH000412: Hibernate Core {5.2.17.Final}
+2019-01-10 10:30:45  INFO nb31301675--[           main] o.h.c.Environment                       :HHH000206: hibernate.properties not found
+2019-01-10 10:30:45  INFO nb31301675--[           main] o.h.a.c.Version                         :HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-10 10:30:46  INFO nb31301675--[           main] o.h.d.Dialect                           :HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2019-01-10 10:30:46  WARN nb31301675--[           main] o.h.d.Oracle9Dialect                    :HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2019-01-10 10:30:46  WARN nb31301675--[           main] o.h.d.OracleDialect                     :HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2019-01-10 10:30:48  INFO nb31301675--[           main] j.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 10:30:50  INFO nb31301675--[           main] o.s.w.s.h.SimpleUrlHandlerMapping       :Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerAdapter:Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4722ef0c: startup date [Thu Jan 10 10:30:40 CST 2019]; root of context hierarchy
+2019-01-10 10:30:51  WARN nb31301675--[           main] aWebConfiguration$JpaWebMvcConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/new],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase(org.springframework.web.servlet.ModelAndView)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/new],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase(dts.model.entity.MaintainCase,java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/edit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase(java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.startMaintainCase(org.springframework.web.servlet.ModelAndView)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/conditions],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.conditionMaintainCase(org.springframework.web.servlet.ModelAndView)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/query],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.query1MaintainCase(java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/query],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase(java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/print],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase(java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/ncrd],methods=[GET]}" onto public java.lang.String dts.mesg.ncrd.controller.NCRDController.ULD_detailGet(java.lang.String,java.lang.String)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/records],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet(java.lang.String,java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 10:30:51  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 10:30:51  INFO nb31301675--[           main] o.s.w.s.h.SimpleUrlHandlerMapping       :Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 10:30:51  INFO nb31301675--[           main] o.s.w.s.h.SimpleUrlHandlerMapping       :Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 10:30:51  INFO nb31301675--[           main] o.s.b.a.w.s.WelcomePageHandlerMapping   :Adding welcome page: ServletContext resource [/index.html]
+2019-01-10 10:30:52  INFO nb31301675--[           main] o.s.j.e.a.AnnotationMBeanExporter       :Registering beans for JMX exposure on startup
+2019-01-10 10:30:52  INFO nb31301675--[           main] o.s.j.e.a.AnnotationMBeanExporter       :Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 10:30:52  INFO nb31301675--[           main] o.s.j.e.a.AnnotationMBeanExporter       :Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-01-10 10:30:52  INFO nb31301675--[           main] o.a.c.h.Http11NioProtocol               :Starting ProtocolHandler ["http-nio-8080"]
+2019-01-10 10:30:52  INFO nb31301675--[           main] o.a.t.u.n.NioSelectorPool               :Using a shared selector for servlet write/read
+2019-01-10 10:30:52  INFO nb31301675--[           main] o.s.b.w.e.t.TomcatWebServer             :Tomcat started on port(s): 8080 (http) with context path '/DTS'
+2019-01-10 10:30:52  INFO nb31301675--[           main] d.Application                           :Started Application in 13.824 seconds (JVM running for 14.752)
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] o.a.c.c.C.[.[.[/DTS]                    :Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] o.s.w.s.DispatcherServlet               :FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] o.s.w.s.DispatcherServlet               :FrameworkServlet 'dispatcherServlet': initialization completed in 57 ms
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.ncrd.controller.NCRDController.ULD_detailGet
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller Properties : [null, null]
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] d.m.n.c.NCRDController                  :########################################
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] d.m.n.c.NCRDController                  :        NCRD  傳送XML檔至FTP服務
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] d.m.n.c.NCRDController                  :########################################
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] d.m.n.c.NCRDController                  :檔案路徑 : C:\MDS\workspace_NFADTS\DTS\download\
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] d.m.n.c.NCRDController                  :----------------------------------------
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] d.m.n.c.NCRDController                  :SEQ:   
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] d.m.n.c.NCRDController                  :CS_NO: 
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] d.m.n.c.NCRDController                  :Url 無 seq 或 csno 參數
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.ncrd.controller.NCRDController.ULD_detailGet
+2019-01-10 10:33:02  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:33:02 ERROR nb31301675--[nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]     :Servlet.service() for servlet [dispatcherServlet] in context with path [/DTS] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException
+	at dts.mesg.ncrd.controller.NCRDController.ULD_detailGet(NCRDController.java:193)
+	at dts.mesg.ncrd.controller.NCRDController$$FastClassBySpringCGLIB$$cc211765.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at dts.mesg.ncrd.controller.NCRDController$$EnhancerBySpringCGLIB$$98baebfa.ULD_detailGet(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.ncrd.controller.NCRDController.ULD_detailGet
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller Properties : [null, 20180721120128003]
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :########################################
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :        NCRD  傳送XML檔至FTP服務
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :########################################
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :檔案路徑 : C:\MDS\workspace_NFADTS\DTS\download\
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :----------------------------------------
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :SEQ:   
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :CS_NO: 20180721120128003
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.UploadNcrdNfaRepository.findByCSNO
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository Properties : [20180721120128003]
+2019-01-10 10:33:48  INFO nb31301675--[nio-8080-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator :HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 10:33:48 DEBUG nb31301675--[nio-8080-exec-4] o.h.SQL                                 :select uploadncrd0_.seq as seq1_9_, uploadncrd0_.cs_areadesc as cs_aread2_9_, uploadncrd0_.alert_type as alert_ty3_9_, uploadncrd0_.cs_cid as cs_cid4_9_, uploadncrd0_.cs_no as cs_no5_9_, uploadncrd0_.cs_desc as cs_desc6_9_, uploadncrd0_.cs_headline as cs_headl7_9_, uploadncrd0_.cs_kind as cs_kind8_9_, uploadncrd0_.rec_date as rec_date9_9_, uploadncrd0_.upload_date as upload_10_9_ from upload_ncdr_nfa uploadncrd0_ where uploadncrd0_.cs_no=?
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.UploadNcrdNfaRepository.findByCSNO
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DisDeathRepNationalMRepository.findByCIDAndCSNO
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository Properties : [07, 20180721120128003]
+2019-01-10 10:33:49 DEBUG nb31301675--[nio-8080-exec-4] o.h.SQL                                 :select disdeathre0_.cs_cid as cs_cid1_3_, disdeathre0_.cs_no as cs_no2_3_, disdeathre0_.cs_x as cs_x3_3_, disdeathre0_.cs_y as cs_y4_3_ from dis_death_rep_national_m disdeathre0_ where disdeathre0_.cs_cid=? and disdeathre0_.cs_no=?
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DisDeathRepNationalMRepository.findByCIDAndCSNO
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:33:49 DEBUG nb31301675--[nio-8080-exec-4] o.h.SQL                                 :select disdeathre0_.cs_cid as cs_cid1_3_, disdeathre0_.cs_no as cs_no2_3_, disdeathre0_.cs_x as cs_x3_3_, disdeathre0_.cs_y as cs_y4_3_ from dis_death_rep_national_m disdeathre0_ where disdeathre0_.cs_cid=? and disdeathre0_.cs_no=?
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DisDeathRepNationalMRepository.findByCIDAndCSNO
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository Properties : [07, 20180721120128003]
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DisDeathRepNationalMRepository.findByCIDAndCSNO
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :建立檔案數(成功  失敗): 2 0
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :上傳檔案至FTP...
+2019-01-10 10:33:49  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :  NFA_Fire_201901101033.cap
+2019-01-10 10:34:10  INFO nb31301675--[nio-8080-exec-4] d.u.FtpUtil                             :FTP的IP地址可能錯誤，請正確配置。
+2019-01-10 10:34:10  INFO nb31301675--[nio-8080-exec-4] d.m.n.c.NCRDController                  :  NFA_Fire_201901101033.cap
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] d.u.FtpUtil                             :FTP的IP地址可能錯誤，請正確配置。
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.findAll
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository Properties : []
+2019-01-10 10:34:31 DEBUG nb31301675--[nio-8080-exec-4] o.h.SQL                                 :select dtsrecord0_.seq as seq1_6_, dtsrecord0_.city as city2_6_, dtsrecord0_.kind as kind3_6_, dtsrecord0_.ldate as ldate4_6_, dtsrecord0_.luser as luser5_6_, dtsrecord0_.rcount as rcount6_6_, dtsrecord0_.ucount as ucount7_6_, dtsrecord0_.updatetime as updateti8_6_ from dts_record dtsrecord0_
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.findAll
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.save
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository Properties : [DtsRecord(cITY=00, sEQ=241, kIND=NCRD, uPDATETIME=20190110103431, rCOUNT=2, uCOUNT=0, lDATE=20190110103431, lUSER=DT)]
+2019-01-10 10:34:31 DEBUG nb31301675--[nio-8080-exec-4] o.h.SQL                                 :select dtsrecord0_.seq as seq1_6_0_, dtsrecord0_.city as city2_6_0_, dtsrecord0_.kind as kind3_6_0_, dtsrecord0_.ldate as ldate4_6_0_, dtsrecord0_.luser as luser5_6_0_, dtsrecord0_.rcount as rcount6_6_0_, dtsrecord0_.ucount as ucount7_6_0_, dtsrecord0_.updatetime as updateti8_6_0_ from dts_record dtsrecord0_ where dtsrecord0_.seq=?
+2019-01-10 10:34:31 DEBUG nb31301675--[nio-8080-exec-4] o.h.SQL                                 :insert into dts_record (city, kind, ldate, luser, rcount, ucount, updatetime, seq) values (?, ?, ?, ?, ?, ?, ?, ?)
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.save
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.ncrd.controller.NCRDController.ULD_detailGet
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.ncrd.controller.NCRDController.ULD_detailGet
+2019-01-10 10:34:31  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller Properties : [null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] d.m.r.c.DtsRecordsListMsgController     :########################################
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] d.m.r.c.DtsRecordsListMsgController     :             服務程式執行記錄查詢
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] d.m.r.c.DtsRecordsListMsgController     :########################################
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] d.m.r.c.DtsRecordsListMsgController     :程式名稱:   
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] d.m.r.c.DtsRecordsListMsgController     :執行日期:   
+2019-01-10 10:35:24 DEBUG nb31301675--[nio-8080-exec-6] o.h.SQL                                 :select dtsrecord0_.seq as seq1_6_, dtsrecord0_.city as city2_6_, dtsrecord0_.kind as kind3_6_, dtsrecord0_.ldate as ldate4_6_, dtsrecord0_.luser as luser5_6_, dtsrecord0_.rcount as rcount6_6_, dtsrecord0_.ucount as ucount7_6_, dtsrecord0_.updatetime as updateti8_6_ from dts_record dtsrecord0_
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.record.service.DtsRecordsListService.findAllData
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service Properties : []
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.findAll
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository Properties : []
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.findAll
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.record.service.DtsRecordsListService.findAllData
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] d.m.r.c.DtsRecordsListMsgController     :筆數 : 19
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet
+2019-01-10 10:35:24  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:36:03  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:36:03  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.startMaintainCase
+2019-01-10 10:36:03  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller Properties : [ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:36:03  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.startMaintainCase
+2019-01-10 10:36:03  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:36:03  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.startMaintainCase
+2019-01-10 10:36:03  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:36:06  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:36:06  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase
+2019-01-10 10:36:06  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller Properties : [ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:36:06  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:36:06  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:36:06  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service Properties : [3]
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository Properties : [3]
+2019-01-10 10:36:07 DEBUG nb31301675--[nio-8080-exec-6] o.h.SQL                                 :select dept0_.deptno as deptno1_0_, dept0_.deptname as deptname2_0_, dept0_.grade as grade3_0_ from dept dept0_ where dept0_.grade=?
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase
+2019-01-10 10:36:07  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller Properties : [MaintainCase(sERIAL=null, uNIT=新興分隊, nAME=gg, rEPBEGINTIME=2019-01-10 10:36, rEPENDTIME=2019-01-10 10:36, pROBLEMDESC=gg, eNGINEER=, dEPATURETIME=2019-01-10 10:36, aRRIVALTIME=2019-01-10 10:36, fINISHTIME=2019-01-10 10:36, pROCESSDESC=, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=null, eDATE=null, lUSER=null), , null, {mCase=MaintainCase(sERIAL=null, uNIT=新興分隊, nAME=gg, rEPBEGINTIME=2019-01-10 10:36, rEPENDTIME=2019-01-10 10:36, pROBLEMDESC=gg, eNGINEER=, dEPATURETIME=2019-01-10 10:36, aRRIVALTIME=2019-01-10 10:36, fINISHTIME=2019-01-10 10:36, pROCESSDESC=, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=null, eDATE=null, lUSER=null), org.springframework.validation.BindingResult.mCase=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :########################################
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :                報修單填寫
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :########################################
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :*************o 檢查資料是否完整 o************
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllByDate
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service Properties : [20190110]
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository Properties : []
+2019-01-10 10:36:32 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllByDate
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.save
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service Properties : [MaintainCase(sERIAL=MA20190110001, uNIT=新興分隊, nAME=gg, rEPBEGINTIME=2019-01-10 10:36, rEPENDTIME=2019-01-10 10:36, pROBLEMDESC=gg, eNGINEER=, dEPATURETIME=2019-01-10 10:36, aRRIVALTIME=2019-01-10 10:36, fINISHTIME=2019-01-10 10:36, pROCESSDESC=, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=null, eDATE=20190110103632, lUSER=creator)]
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.save
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository Properties : [MaintainCase(sERIAL=MA20190110001, uNIT=新興分隊, nAME=gg, rEPBEGINTIME=2019-01-10 10:36, rEPENDTIME=2019-01-10 10:36, pROBLEMDESC=gg, eNGINEER=, dEPATURETIME=2019-01-10 10:36, aRRIVALTIME=2019-01-10 10:36, fINISHTIME=2019-01-10 10:36, pROCESSDESC=, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=null, eDATE=20190110103632, lUSER=creator)]
+2019-01-10 10:36:32 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :select maintainca0_.serial as serial1_8_0_, maintainca0_.arrivaltime as arrivalt2_8_0_, maintainca0_.commutetime as commutet3_8_0_, maintainca0_.depaturetime as depature4_8_0_, maintainca0_.edate as edate5_8_0_, maintainca0_.engineer as engineer6_8_0_, maintainca0_.finishtime as finishti7_8_0_, maintainca0_.luser as luser8_8_0_, maintainca0_.memo1 as memo9_8_0_, maintainca0_.memo2 as memo10_8_0_, maintainca0_.memo3 as memo11_8_0_, maintainca0_.memo4 as memo12_8_0_, maintainca0_.memo5 as memo13_8_0_, maintainca0_.name as name14_8_0_, maintainca0_.problemdesc as problem15_8_0_, maintainca0_.processdesc as process16_8_0_, maintainca0_.processtime as process17_8_0_, maintainca0_.repbegintime as repbegi18_8_0_, maintainca0_.rependtime as rependt19_8_0_, maintainca0_.status as status20_8_0_, maintainca0_.udate as udate21_8_0_, maintainca0_.unit as unit22_8_0_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.save
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.save
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:36:32 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :insert into maintain_case (arrivaltime, commutetime, depaturetime, edate, engineer, finishtime, luser, memo1, memo2, memo3, memo4, memo5, name, problemdesc, processdesc, processtime, repbegintime, rependtime, status, udate, unit, serial) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service Properties : [MA20190110001]
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190110001]
+2019-01-10 10:36:32 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :**************o 資料儲存成功 o**************
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :報修單號:   MA20190110001
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service Properties : [3]
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository Properties : [3]
+2019-01-10 10:36:32 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :select dept0_.deptno as deptno1_0_, dept0_.deptname as deptname2_0_, dept0_.grade as grade3_0_ from dept dept0_ where dept0_.grade=?
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase
+2019-01-10 10:36:32  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller Properties : [null, null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service Properties : [, , ]
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository Properties : []
+2019-01-10 10:37:05 DEBUG nb31301675--[nio-8080-exec-6] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:37:05  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller Properties : [MA20190108001, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	        Service Properties : [MA20190108001]
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108001]
+2019-01-10 10:37:09 DEBUG nb31301675--[nio-8080-exec-8] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase
+2019-01-10 10:37:09  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :    Controller Properties : [MA20190108003, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	        Service Properties : [MA20190108003]
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108003]
+2019-01-10 10:37:25 DEBUG nb31301675--[io-8080-exec-10] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	        Service Properties : [3]
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	        Repository Properties : [3]
+2019-01-10 10:37:25 DEBUG nb31301675--[io-8080-exec-10] o.h.SQL                                 :select dept0_.deptno as deptno1_0_, dept0_.deptname as deptname2_0_, dept0_.grade as grade3_0_ from dept dept0_ where dept0_.grade=?
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase
+2019-01-10 10:37:25  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ControllerAepect                    :    Controller Properties : [MaintainCase(sERIAL=MA20190108003, uNIT=楠梓分隊, nAME=bb, rEPBEGINTIME=2019-01-08 17:34, rEPENDTIME=2019-01-08 17:34, pROBLEMDESC=哈哈啦
+, eNGINEER=bb, dEPATURETIME=2019-01-08 17:34, aRRIVALTIME=2019-01-08 17:34, fINISHTIME=2019-01-08 17:34, pROCESSDESC=bb, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=null, eDATE=20190108053509, lUSER=null), , update, {mCase=MaintainCase(sERIAL=MA20190108003, uNIT=楠梓分隊, nAME=bb, rEPBEGINTIME=2019-01-08 17:34, rEPENDTIME=2019-01-08 17:34, pROBLEMDESC=哈哈啦
+, eNGINEER=bb, dEPATURETIME=2019-01-08 17:34, aRRIVALTIME=2019-01-08 17:34, fINISHTIME=2019-01-08 17:34, pROCESSDESC=bb, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=null, eDATE=20190108053509, lUSER=null), org.springframework.validation.BindingResult.mCase=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] d.m.m.c.MaintainCaseController          :########################################
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] d.m.m.c.MaintainCaseController          :                報修單填寫
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] d.m.m.c.MaintainCaseController          :########################################
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] d.m.m.c.MaintainCaseController          :*************o 檢查資料是否完整 o************
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.save
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	        Service Properties : [MaintainCase(sERIAL=MA20190108003, uNIT=楠梓分隊, nAME=bb, rEPBEGINTIME=2019-01-08 17:34, rEPENDTIME=2019-01-08 17:34, pROBLEMDESC=哈哈啦, eNGINEER=bb, dEPATURETIME=2019-01-08 17:34, aRRIVALTIME=2019-01-08 17:34, fINISHTIME=2019-01-08 17:34, pROCESSDESC=bb, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=20190110103735, eDATE=20190108053509, lUSER=system)]
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.save
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	        Repository Properties : [MaintainCase(sERIAL=MA20190108003, uNIT=楠梓分隊, nAME=bb, rEPBEGINTIME=2019-01-08 17:34, rEPENDTIME=2019-01-08 17:34, pROBLEMDESC=哈哈啦, eNGINEER=bb, dEPATURETIME=2019-01-08 17:34, aRRIVALTIME=2019-01-08 17:34, fINISHTIME=2019-01-08 17:34, pROCESSDESC=bb, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=20190110103735, eDATE=20190108053509, lUSER=system)]
+2019-01-10 10:37:35 DEBUG nb31301675--[nio-8080-exec-2] o.h.SQL                                 :select maintainca0_.serial as serial1_8_0_, maintainca0_.arrivaltime as arrivalt2_8_0_, maintainca0_.commutetime as commutet3_8_0_, maintainca0_.depaturetime as depature4_8_0_, maintainca0_.edate as edate5_8_0_, maintainca0_.engineer as engineer6_8_0_, maintainca0_.finishtime as finishti7_8_0_, maintainca0_.luser as luser8_8_0_, maintainca0_.memo1 as memo9_8_0_, maintainca0_.memo2 as memo10_8_0_, maintainca0_.memo3 as memo11_8_0_, maintainca0_.memo4 as memo12_8_0_, maintainca0_.memo5 as memo13_8_0_, maintainca0_.name as name14_8_0_, maintainca0_.problemdesc as problem15_8_0_, maintainca0_.processdesc as process16_8_0_, maintainca0_.processtime as process17_8_0_, maintainca0_.repbegintime as repbegi18_8_0_, maintainca0_.rependtime as rependt19_8_0_, maintainca0_.status as status20_8_0_, maintainca0_.udate as udate21_8_0_, maintainca0_.unit as unit22_8_0_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.save
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.save
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:37:35 DEBUG nb31301675--[nio-8080-exec-2] o.h.SQL                                 :update maintain_case set arrivaltime=?, commutetime=?, depaturetime=?, edate=?, engineer=?, finishtime=?, luser=?, memo1=?, memo2=?, memo3=?, memo4=?, memo5=?, name=?, problemdesc=?, processdesc=?, processtime=?, repbegintime=?, rependtime=?, status=?, udate=?, unit=? where serial=?
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	        Service Properties : [MA20190108003]
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108003]
+2019-01-10 10:37:35 DEBUG nb31301675--[nio-8080-exec-2] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] d.m.m.c.MaintainCaseController          :**************o 資料儲存成功 o**************
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] d.m.m.c.MaintainCaseController          :報修單號:   MA20190108003
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-2] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:37:35 DEBUG nb31301675--[nio-8080-exec-7] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ControllerAepect                    :    Controller Properties : [MA20190108003, null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ServiceAepect                       :	        Service Properties : [MA20190108003, , ]
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108003]
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:37:35  INFO nb31301675--[nio-8080-exec-7] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller Properties : [MA20190108003, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	        Service Properties : [MA20190108003]
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:37:46 DEBUG nb31301675--[nio-8080-exec-4] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108003]
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase
+2019-01-10 10:37:46  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller Properties : [MA20190108003, null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service Properties : [MA20190108003, , ]
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108003]
+2019-01-10 10:38:32 DEBUG nb31301675--[nio-8080-exec-5] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:38:32  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller Properties : [ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service Properties : [3]
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository Properties : [3]
+2019-01-10 10:38:34 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :select dept0_.deptno as deptno1_0_, dept0_.deptname as deptname2_0_, dept0_.grade as grade3_0_ from dept dept0_ where dept0_.grade=?
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase
+2019-01-10 10:38:34  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller Properties : [null, null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 10:38:37 DEBUG nb31301675--[nio-8080-exec-6] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service Properties : [, , ]
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository Properties : []
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 10:38:37  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller Properties : [MA20190110001, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service Properties : [MA20190110001]
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190110001]
+2019-01-10 10:38:40 DEBUG nb31301675--[nio-8080-exec-5] o.h.SQL                                 :select maintainca0_.serial as serial1_8_, maintainca0_.arrivaltime as arrivalt2_8_, maintainca0_.commutetime as commutet3_8_, maintainca0_.depaturetime as depature4_8_, maintainca0_.edate as edate5_8_, maintainca0_.engineer as engineer6_8_, maintainca0_.finishtime as finishti7_8_, maintainca0_.luser as luser8_8_, maintainca0_.memo1 as memo9_8_, maintainca0_.memo2 as memo10_8_, maintainca0_.memo3 as memo11_8_, maintainca0_.memo4 as memo12_8_, maintainca0_.memo5 as memo13_8_, maintainca0_.name as name14_8_, maintainca0_.problemdesc as problem15_8_, maintainca0_.processdesc as process16_8_, maintainca0_.processtime as process17_8_, maintainca0_.repbegintime as repbegi18_8_, maintainca0_.rependtime as rependt19_8_, maintainca0_.status as status20_8_, maintainca0_.udate as udate21_8_, maintainca0_.unit as unit22_8_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service Properties : [3]
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository Properties : [3]
+2019-01-10 10:38:40 DEBUG nb31301675--[nio-8080-exec-5] o.h.SQL                                 :select dept0_.deptno as deptno1_0_, dept0_.deptname as deptname2_0_, dept0_.grade as grade3_0_ from dept dept0_ where dept0_.grade=?
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase
+2019-01-10 10:38:40  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller Properties : [null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] d.m.r.c.DtsRecordsListMsgController     :########################################
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] d.m.r.c.DtsRecordsListMsgController     :             服務程式執行記錄查詢
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] d.m.r.c.DtsRecordsListMsgController     :########################################
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] d.m.r.c.DtsRecordsListMsgController     :程式名稱:   
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] d.m.r.c.DtsRecordsListMsgController     :執行日期:   
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.record.service.DtsRecordsListService.findAllData
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	        Service Properties : []
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.findAll
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	        Repository Properties : []
+2019-01-10 10:39:06 DEBUG nb31301675--[nio-8080-exec-8] o.h.SQL                                 :select dtsrecord0_.seq as seq1_6_, dtsrecord0_.city as city2_6_, dtsrecord0_.kind as kind3_6_, dtsrecord0_.ldate as ldate4_6_, dtsrecord0_.luser as luser5_6_, dtsrecord0_.rcount as rcount6_6_, dtsrecord0_.ucount as ucount7_6_, dtsrecord0_.updatetime as updateti8_6_ from dts_record dtsrecord0_
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.findAll
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.record.service.DtsRecordsListService.findAllData
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] d.m.r.c.DtsRecordsListMsgController     :筆數 : 19
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet
+2019-01-10 10:39:06  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:33:27  INFO nb31301675--[           main] d.Application                           :Starting Application on nb31301675 with PID 2780 (C:\MDS\workspace_NFADTS\DTS_x\target\classes started by mds_userz in C:\MDS\workspace_NFADTS\DTS_x)
+2019-01-10 11:33:27  INFO nb31301675--[           main] d.Application                           :No active profile set, falling back to default profiles: default
+2019-01-10 11:33:27  INFO nb31301675--[           main] ConfigServletWebServerApplicationContext:Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@723ca036: startup date [Thu Jan 10 11:33:27 CST 2019]; root of context hierarchy
+2019-01-10 11:33:36  INFO nb31301675--[           main] d.Application                           :Starting Application on nb31301675 with PID 10924 (C:\MDS\workspace_NFADTS\DTS_x\target\classes started by mds_userz in C:\MDS\workspace_NFADTS\DTS_x)
+2019-01-10 11:33:36  INFO nb31301675--[           main] d.Application                           :No active profile set, falling back to default profiles: default
+2019-01-10 11:33:36  INFO nb31301675--[           main] ConfigServletWebServerApplicationContext:Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@338fc1d8: startup date [Thu Jan 10 11:33:36 CST 2019]; root of context hierarchy
+2019-01-10 11:33:37  INFO nb31301675--[           main] trationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$186ae2e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 11:33:38  INFO nb31301675--[           main] o.s.b.w.e.t.TomcatWebServer             :Tomcat initialized with port(s): 8080 (http)
+2019-01-10 11:33:38  INFO nb31301675--[           main] o.a.c.h.Http11NioProtocol               :Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-10 11:33:38  INFO nb31301675--[           main] o.a.c.c.StandardService                 :Starting service [Tomcat]
+2019-01-10 11:33:38  INFO nb31301675--[           main] o.a.c.c.StandardEngine                  :Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-01-10 11:33:38  INFO nb31301675--[ost-startStop-1] o.a.c.c.AprLifecycleListener            :The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_91/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_91/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_91/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\CollabNet\Subversion Client;C:\Program Files\Java\jdk1.8.0_91\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Acer ProShield\;C:\Program Files\Acer ProShield\x86;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\sts;;.]
+2019-01-10 11:33:39  INFO nb31301675--[ost-startStop-1] o.a.j.s.TldScanner                      :At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-10 11:33:39  INFO nb31301675--[ost-startStop-1] o.a.c.c.C.[.[.[/DTS]                    :Initializing Spring embedded WebApplicationContext
+2019-01-10 11:33:39  INFO nb31301675--[ost-startStop-1] o.s.w.c.ContextLoader                   :Root WebApplicationContext: initialization completed in 3105 ms
+2019-01-10 11:33:39  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.ServletRegistrationBean       :Servlet dispatcherServlet mapped to [/]
+2019-01-10 11:33:39  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.FilterRegistrationBean        :Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 11:33:39  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.FilterRegistrationBean        :Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 11:33:39  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.FilterRegistrationBean        :Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 11:33:39  INFO nb31301675--[ost-startStop-1] o.s.b.w.s.FilterRegistrationBean        :Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 11:33:40  INFO nb31301675--[           main] c.z.h.HikariDataSource                  :HikariPool-1 - Starting...
+2019-01-10 11:33:40  WARN nb31301675--[           main] c.z.h.u.DriverDataSource                :Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-10 11:33:40  INFO nb31301675--[           main] c.z.h.p.PoolBase                        :HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-10 11:33:40  INFO nb31301675--[           main] c.z.h.HikariDataSource                  :HikariPool-1 - Start completed.
+2019-01-10 11:33:40  INFO nb31301675--[           main] j.LocalContainerEntityManagerFactoryBean:Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 11:33:40  INFO nb31301675--[           main] o.h.j.i.u.LogHelper                     :HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 11:33:40  INFO nb31301675--[           main] o.h.Version                             :HHH000412: Hibernate Core {5.2.17.Final}
+2019-01-10 11:33:40  INFO nb31301675--[           main] o.h.c.Environment                       :HHH000206: hibernate.properties not found
+2019-01-10 11:33:40  INFO nb31301675--[           main] o.h.a.c.Version                         :HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-10 11:33:41  INFO nb31301675--[           main] o.h.d.Dialect                           :HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2019-01-10 11:33:41  WARN nb31301675--[           main] o.h.d.Oracle9Dialect                    :HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2019-01-10 11:33:41  WARN nb31301675--[           main] o.h.d.OracleDialect                     :HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2019-01-10 11:33:42  INFO nb31301675--[           main] j.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 11:33:43  INFO nb31301675--[           main] o.s.w.s.h.SimpleUrlHandlerMapping       :Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerAdapter:Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@338fc1d8: startup date [Thu Jan 10 11:33:36 CST 2019]; root of context hierarchy
+2019-01-10 11:33:44  WARN nb31301675--[           main] aWebConfiguration$JpaWebMvcConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.startMaintainCase(org.springframework.web.servlet.ModelAndView)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/conditions],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.conditionMaintainCase(org.springframework.web.servlet.ModelAndView)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/query],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.query1MaintainCase(java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/query],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase(java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/print],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase(java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/new],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase(dts.model.entity.MaintainCase,java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/new],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase(org.springframework.web.servlet.ModelAndView)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/MaintainCase/edit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase(java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/records],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet(java.lang.String,java.lang.String,org.springframework.web.servlet.ModelAndView)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 11:33:44  INFO nb31301675--[           main] s.w.s.m.m.a.RequestMappingHandlerMapping:Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 11:33:44  INFO nb31301675--[           main] o.s.w.s.h.SimpleUrlHandlerMapping       :Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 11:33:44  INFO nb31301675--[           main] o.s.w.s.h.SimpleUrlHandlerMapping       :Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 11:33:45  INFO nb31301675--[           main] o.s.b.a.w.s.WelcomePageHandlerMapping   :Adding welcome page: ServletContext resource [/index.html]
+2019-01-10 11:33:45  INFO nb31301675--[           main] o.s.j.e.a.AnnotationMBeanExporter       :Registering beans for JMX exposure on startup
+2019-01-10 11:33:45  INFO nb31301675--[           main] o.s.j.e.a.AnnotationMBeanExporter       :Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 11:33:45  INFO nb31301675--[           main] o.s.j.e.a.AnnotationMBeanExporter       :Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-01-10 11:33:45  INFO nb31301675--[           main] o.a.c.h.Http11NioProtocol               :Starting ProtocolHandler ["http-nio-8080"]
+2019-01-10 11:33:45  INFO nb31301675--[           main] o.a.t.u.n.NioSelectorPool               :Using a shared selector for servlet write/read
+2019-01-10 11:33:45  INFO nb31301675--[           main] o.s.b.w.e.t.TomcatWebServer             :Tomcat started on port(s): 8080 (http) with context path '/DTS'
+2019-01-10 11:33:45  INFO nb31301675--[           main] d.Application                           :Started Application in 10.842 seconds (JVM running for 11.321)
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] o.a.c.c.C.[.[.[/DTS]                    :Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] o.s.w.s.DispatcherServlet               :FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] o.s.w.s.DispatcherServlet               :FrameworkServlet 'dispatcherServlet': initialization completed in 54 ms
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller Properties : [MA20190108003, null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	        Service Properties : [MA20190108003, , ]
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108003]
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator :HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 11:34:06 DEBUG nb31301675--[nio-8080-exec-1] o.h.SQL                                 :select maintainca0_.serial as serial1_2_, maintainca0_.arrivaltime as arrivalt2_2_, maintainca0_.commutetime as commutet3_2_, maintainca0_.depaturetime as depature4_2_, maintainca0_.edate as edate5_2_, maintainca0_.engineer as engineer6_2_, maintainca0_.finishtime as finishti7_2_, maintainca0_.luser as luser8_2_, maintainca0_.memo1 as memo9_2_, maintainca0_.memo2 as memo10_2_, maintainca0_.memo3 as memo11_2_, maintainca0_.memo4 as memo12_2_, maintainca0_.memo5 as memo13_2_, maintainca0_.name as name14_2_, maintainca0_.problemdesc as problem15_2_, maintainca0_.processdesc as process16_2_, maintainca0_.processtime as process17_2_, maintainca0_.repbegintime as repbegi18_2_, maintainca0_.rependtime as rependt19_2_, maintainca0_.status as status20_2_, maintainca0_.udate as udate21_2_, maintainca0_.unit as unit22_2_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:06  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller Properties : [MA20190108003, null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service Properties : [MA20190108003, , ]
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108003]
+2019-01-10 11:34:10 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :select maintainca0_.serial as serial1_2_, maintainca0_.arrivaltime as arrivalt2_2_, maintainca0_.commutetime as commutet3_2_, maintainca0_.depaturetime as depature4_2_, maintainca0_.edate as edate5_2_, maintainca0_.engineer as engineer6_2_, maintainca0_.finishtime as finishti7_2_, maintainca0_.luser as luser8_2_, maintainca0_.memo1 as memo9_2_, maintainca0_.memo2 as memo10_2_, maintainca0_.memo3 as memo11_2_, maintainca0_.memo4 as memo12_2_, maintainca0_.memo5 as memo13_2_, maintainca0_.name as name14_2_, maintainca0_.problemdesc as problem15_2_, maintainca0_.processdesc as process16_2_, maintainca0_.processtime as process17_2_, maintainca0_.repbegintime as repbegi18_2_, maintainca0_.rependtime as rependt19_2_, maintainca0_.status as status20_2_, maintainca0_.udate as udate21_2_, maintainca0_.unit as unit22_2_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:10  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller Properties : [ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service Properties : [3]
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository Properties : [3]
+2019-01-10 11:34:14 DEBUG nb31301675--[nio-8080-exec-5] o.h.SQL                                 :select dept0_.deptno as deptno1_0_, dept0_.deptname as deptname2_0_, dept0_.grade as grade3_0_ from dept dept0_ where dept0_.grade=?
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.addMaintainCase
+2019-01-10 11:34:14  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller Properties : [null, null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service Properties : [, , ]
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository Properties : []
+2019-01-10 11:34:17 DEBUG nb31301675--[nio-8080-exec-6] o.h.SQL                                 :select maintainca0_.serial as serial1_2_, maintainca0_.arrivaltime as arrivalt2_2_, maintainca0_.commutetime as commutet3_2_, maintainca0_.depaturetime as depature4_2_, maintainca0_.edate as edate5_2_, maintainca0_.engineer as engineer6_2_, maintainca0_.finishtime as finishti7_2_, maintainca0_.luser as luser8_2_, maintainca0_.memo1 as memo9_2_, maintainca0_.memo2 as memo10_2_, maintainca0_.memo3 as memo11_2_, maintainca0_.memo4 as memo12_2_, maintainca0_.memo5 as memo13_2_, maintainca0_.name as name14_2_, maintainca0_.problemdesc as problem15_2_, maintainca0_.processdesc as process16_2_, maintainca0_.processtime as process17_2_, maintainca0_.repbegintime as repbegi18_2_, maintainca0_.rependtime as rependt19_2_, maintainca0_.status as status20_2_, maintainca0_.udate as udate21_2_, maintainca0_.unit as unit22_2_ from maintain_case maintainca0_
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:17  INFO nb31301675--[nio-8080-exec-6] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:34:19  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:19  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.conditionMaintainCase
+2019-01-10 11:34:19  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller Properties : [ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:34:19  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.conditionMaintainCase
+2019-01-10 11:34:19  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:19  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.conditionMaintainCase
+2019-01-10 11:34:19  INFO nb31301675--[nio-8080-exec-8] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.query1MaintainCase
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :    Controller Properties : [, , 20190108, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] d.m.m.c.MaintainCaseController          :########################################
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] d.m.m.c.MaintainCaseController          :                報修記錄查詢
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] d.m.m.c.MaintainCaseController          :########################################
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] d.m.m.c.MaintainCaseController          :報修日期:   20190108
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	        Service Properties : [, , 20190108]
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	        Repository Properties : []
+2019-01-10 11:34:30 DEBUG nb31301675--[io-8080-exec-10] o.h.SQL                                 :select maintainca0_.serial as serial1_2_, maintainca0_.arrivaltime as arrivalt2_2_, maintainca0_.commutetime as commutet3_2_, maintainca0_.depaturetime as depature4_2_, maintainca0_.edate as edate5_2_, maintainca0_.engineer as engineer6_2_, maintainca0_.finishtime as finishti7_2_, maintainca0_.luser as luser8_2_, maintainca0_.memo1 as memo9_2_, maintainca0_.memo2 as memo10_2_, maintainca0_.memo3 as memo11_2_, maintainca0_.memo4 as memo12_2_, maintainca0_.memo5 as memo13_2_, maintainca0_.name as name14_2_, maintainca0_.problemdesc as problem15_2_, maintainca0_.processdesc as process16_2_, maintainca0_.processtime as process17_2_, maintainca0_.repbegintime as repbegi18_2_, maintainca0_.rependtime as rependt19_2_, maintainca0_.status as status20_2_, maintainca0_.udate as udate21_2_, maintainca0_.unit as unit22_2_ from maintain_case maintainca0_
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAll
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.query1MaintainCase
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.query1MaintainCase
+2019-01-10 11:34:30  INFO nb31301675--[io-8080-exec-10] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller Properties : [MA20190108002, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	        Service Properties : [MA20190108002]
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108002]
+2019-01-10 11:34:32 DEBUG nb31301675--[nio-8080-exec-1] o.h.SQL                                 :select maintainca0_.serial as serial1_2_, maintainca0_.arrivaltime as arrivalt2_2_, maintainca0_.commutetime as commutet3_2_, maintainca0_.depaturetime as depature4_2_, maintainca0_.edate as edate5_2_, maintainca0_.engineer as engineer6_2_, maintainca0_.finishtime as finishti7_2_, maintainca0_.luser as luser8_2_, maintainca0_.memo1 as memo9_2_, maintainca0_.memo2 as memo10_2_, maintainca0_.memo3 as memo11_2_, maintainca0_.memo4 as memo12_2_, maintainca0_.memo5 as memo13_2_, maintainca0_.name as name14_2_, maintainca0_.problemdesc as problem15_2_, maintainca0_.processdesc as process16_2_, maintainca0_.processtime as process17_2_, maintainca0_.repbegintime as repbegi18_2_, maintainca0_.rependtime as rependt19_2_, maintainca0_.status as status20_2_, maintainca0_.udate as udate21_2_, maintainca0_.unit as unit22_2_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	        Service Properties : [3]
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	        Repository Properties : [3]
+2019-01-10 11:34:32 DEBUG nb31301675--[nio-8080-exec-1] o.h.SQL                                 :select dept0_.deptno as deptno1_0_, dept0_.deptname as deptname2_0_, dept0_.grade as grade3_0_ from dept dept0_ where dept0_.grade=?
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DeptRepository.findAllBygRADE
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBygRADE
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.editMaintainCase
+2019-01-10 11:34:32  INFO nb31301675--[nio-8080-exec-1] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller Properties : [MaintainCase(sERIAL=MA20190108002, uNIT=梓官分隊, nAME=mm, rEPBEGINTIME=2019-01-08 17:34, rEPENDTIME=2019-01-08 17:34, pROBLEMDESC=mm吐, eNGINEER=mm, dEPATURETIME=2019-01-08 17:34, aRRIVALTIME=2019-01-08 17:34, fINISHTIME=2019-01-08 17:34, pROCESSDESC=mm, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=null, eDATE=20190108053427, lUSER=null), , update, {mCase=MaintainCase(sERIAL=MA20190108002, uNIT=梓官分隊, nAME=mm, rEPBEGINTIME=2019-01-08 17:34, rEPENDTIME=2019-01-08 17:34, pROBLEMDESC=mm吐, eNGINEER=mm, dEPATURETIME=2019-01-08 17:34, aRRIVALTIME=2019-01-08 17:34, fINISHTIME=2019-01-08 17:34, pROCESSDESC=mm, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=null, eDATE=20190108053427, lUSER=null), org.springframework.validation.BindingResult.mCase=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :########################################
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :                報修單填寫
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :########################################
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :*************o 檢查資料是否完整 o************
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.save
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service Properties : [MaintainCase(sERIAL=MA20190108002, uNIT=梓官分隊, nAME=mm, rEPBEGINTIME=2019-01-08 17:34, rEPENDTIME=2019-01-08 17:34, pROBLEMDESC=mm吐, eNGINEER=mm, dEPATURETIME=2019-01-08 17:34, aRRIVALTIME=2019-01-08 17:34, fINISHTIME=2019-01-08 17:34, pROCESSDESC=mm, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=20190110113440, eDATE=20190108053427, lUSER=system)]
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.save
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository Properties : [MaintainCase(sERIAL=MA20190108002, uNIT=梓官分隊, nAME=mm, rEPBEGINTIME=2019-01-08 17:34, rEPENDTIME=2019-01-08 17:34, pROBLEMDESC=mm吐, eNGINEER=mm, dEPATURETIME=2019-01-08 17:34, aRRIVALTIME=2019-01-08 17:34, fINISHTIME=2019-01-08 17:34, pROCESSDESC=mm, sTATUS=完成, pROCESSTIME=0, cOMMUTETIME=0, mEMO1=null, mEMO2=null, mEMO3=null, mEMO4=null, mEMO5=null, uDATE=20190110113440, eDATE=20190108053427, lUSER=system)]
+2019-01-10 11:34:40 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :select maintainca0_.serial as serial1_2_0_, maintainca0_.arrivaltime as arrivalt2_2_0_, maintainca0_.commutetime as commutet3_2_0_, maintainca0_.depaturetime as depature4_2_0_, maintainca0_.edate as edate5_2_0_, maintainca0_.engineer as engineer6_2_0_, maintainca0_.finishtime as finishti7_2_0_, maintainca0_.luser as luser8_2_0_, maintainca0_.memo1 as memo9_2_0_, maintainca0_.memo2 as memo10_2_0_, maintainca0_.memo3 as memo11_2_0_, maintainca0_.memo4 as memo12_2_0_, maintainca0_.memo5 as memo13_2_0_, maintainca0_.name as name14_2_0_, maintainca0_.problemdesc as problem15_2_0_, maintainca0_.processdesc as process16_2_0_, maintainca0_.processtime as process17_2_0_, maintainca0_.repbegintime as repbegi18_2_0_, maintainca0_.rependtime as rependt19_2_0_, maintainca0_.status as status20_2_0_, maintainca0_.udate as udate21_2_0_, maintainca0_.unit as unit22_2_0_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.save
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.save
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:40 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :update maintain_case set arrivaltime=?, commutetime=?, depaturetime=?, edate=?, engineer=?, finishtime=?, luser=?, memo1=?, memo2=?, memo3=?, memo4=?, memo5=?, name=?, problemdesc=?, processdesc=?, processtime=?, repbegintime=?, rependtime=?, status=?, udate=?, unit=? where serial=?
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service Properties : [MA20190108002]
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108002]
+2019-01-10 11:34:40 DEBUG nb31301675--[nio-8080-exec-3] o.h.SQL                                 :select maintainca0_.serial as serial1_2_, maintainca0_.arrivaltime as arrivalt2_2_, maintainca0_.commutetime as commutet3_2_, maintainca0_.depaturetime as depature4_2_, maintainca0_.edate as edate5_2_, maintainca0_.engineer as engineer6_2_, maintainca0_.finishtime as finishti7_2_, maintainca0_.luser as luser8_2_, maintainca0_.memo1 as memo9_2_, maintainca0_.memo2 as memo10_2_, maintainca0_.memo3 as memo11_2_, maintainca0_.memo4 as memo12_2_, maintainca0_.memo5 as memo13_2_, maintainca0_.name as name14_2_, maintainca0_.problemdesc as problem15_2_, maintainca0_.processdesc as process16_2_, maintainca0_.processtime as process17_2_, maintainca0_.repbegintime as repbegi18_2_, maintainca0_.rependtime as rependt19_2_, maintainca0_.status as status20_2_, maintainca0_.udate as udate21_2_, maintainca0_.unit as unit22_2_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :**************o 資料儲存成功 o**************
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] d.m.m.c.MaintainCaseController          :報修單號:   MA20190108002
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.saveMaintainCase
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-3] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:34:40 DEBUG nb31301675--[nio-8080-exec-4] o.h.SQL                                 :select maintainca0_.serial as serial1_2_, maintainca0_.arrivaltime as arrivalt2_2_, maintainca0_.commutetime as commutet3_2_, maintainca0_.depaturetime as depature4_2_, maintainca0_.edate as edate5_2_, maintainca0_.engineer as engineer6_2_, maintainca0_.finishtime as finishti7_2_, maintainca0_.luser as luser8_2_, maintainca0_.memo1 as memo9_2_, maintainca0_.memo2 as memo10_2_, maintainca0_.memo3 as memo11_2_, maintainca0_.memo4 as memo12_2_, maintainca0_.memo5 as memo13_2_, maintainca0_.name as name14_2_, maintainca0_.problemdesc as problem15_2_, maintainca0_.processdesc as process16_2_, maintainca0_.processtime as process17_2_, maintainca0_.repbegintime as repbegi18_2_, maintainca0_.rependtime as rependt19_2_, maintainca0_.status as status20_2_, maintainca0_.udate as udate21_2_, maintainca0_.unit as unit22_2_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller Properties : [MA20190108002, null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	        Service Properties : [MA20190108002, , ]
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108002]
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIALuNITdATE
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.queryMaintainCase
+2019-01-10 11:34:40  INFO nb31301675--[nio-8080-exec-4] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller Properties : [MA20190108002, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service Properties : [MA20190108002]
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository Properties : [MA20190108002]
+2019-01-10 11:34:43 DEBUG nb31301675--[nio-8080-exec-5] o.h.SQL                                 :select maintainca0_.serial as serial1_2_, maintainca0_.arrivaltime as arrivalt2_2_, maintainca0_.commutetime as commutet3_2_, maintainca0_.depaturetime as depature4_2_, maintainca0_.edate as edate5_2_, maintainca0_.engineer as engineer6_2_, maintainca0_.finishtime as finishti7_2_, maintainca0_.luser as luser8_2_, maintainca0_.memo1 as memo9_2_, maintainca0_.memo2 as memo10_2_, maintainca0_.memo3 as memo11_2_, maintainca0_.memo4 as memo12_2_, maintainca0_.memo5 as memo13_2_, maintainca0_.name as name14_2_, maintainca0_.problemdesc as problem15_2_, maintainca0_.processdesc as process16_2_, maintainca0_.processtime as process17_2_, maintainca0_.repbegintime as repbegi18_2_, maintainca0_.rependtime as rependt19_2_, maintainca0_.status as status20_2_, maintainca0_.udate as udate21_2_, maintainca0_.unit as unit22_2_ from maintain_case maintainca0_ where maintainca0_.serial=?
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.MaintainCaseRepository.findAllBysERIAL
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.maintain.service.MaintainCaseService.findAllBysERIAL
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.maintain.controller.MaintainCaseController.printMaintainCase
+2019-01-10 11:34:43  INFO nb31301675--[nio-8080-exec-5] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ControllerAepect                    :<<< Process Controller Start !!! >>>
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ControllerAepect                    :    Controller Properties : [null, null, ModelAndView: materialized View is [null]; model is null]
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] d.m.r.c.DtsRecordsListMsgController     :########################################
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] d.m.r.c.DtsRecordsListMsgController     :             服務程式執行記錄查詢
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] d.m.r.c.DtsRecordsListMsgController     :########################################
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] d.m.r.c.DtsRecordsListMsgController     :程式名稱:   
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] d.m.r.c.DtsRecordsListMsgController     :執行日期:   
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ServiceAepect                       :	    <<< Process Service Start !!! >>>
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.record.service.DtsRecordsListService.findAllData
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ServiceAepect                       :	        Service Properties : []
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.RepositoryAepect                    :	    <<< Process Repository Start !!! >>>
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.findAll
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.RepositoryAepect                    :	        Repository Properties : []
+2019-01-10 11:35:09 DEBUG nb31301675--[nio-8080-exec-9] o.h.SQL                                 :select dtsrecord0_.seq as seq1_1_, dtsrecord0_.city as city2_1_, dtsrecord0_.kind as kind3_1_, dtsrecord0_.ldate as ldate4_1_, dtsrecord0_.luser as luser5_1_, dtsrecord0_.rcount as rcount6_1_, dtsrecord0_.ucount as ucount7_1_, dtsrecord0_.updatetime as updateti8_1_ from dts_record dtsrecord0_
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.RepositoryAepect                    :	        Repository_Method : dts.repository.DtsRecordRepository.findAll
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.RepositoryAepect                    :	    <<< Process Repository End !!! >>>
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ServiceAepect                       :	        Service_Method : dts.mesg.record.service.DtsRecordsListService.findAllData
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ServiceAepect                       :	    <<< Process Service End !!! >>>
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] d.m.r.c.DtsRecordsListMsgController     :筆數 : 19
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ControllerAepect                    :<<< Process Controller End !!! >>>
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ControllerAepect                    :    Controller_Method : dts.mesg.record.controller.DtsRecordsListMsgController.ULD_detailGet
+2019-01-10 11:35:09  INFO nb31301675--[nio-8080-exec-9] a.l.ControllerAepect                    :<<< Process Controller After return !!! 
